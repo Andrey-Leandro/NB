@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0c0b09">
+
+    <title>Núcleo de Beleza Barros | Jandira - SP</title>
+    <meta name="description" content="Núcleo de Beleza Barros em Jandira-SP. Cabelos, unhas, estética, bronze e micropigmentação. Entre em contato pelo WhatsApp.">
+
+    <meta property="og:title" content="Núcleo de Beleza Barros">
+    <meta property="og:description" content="Realçando sua beleza com cuidado e excelência. Agende pelo WhatsApp.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&amp;family=Jost:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer=""></script>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="wrap header-inner">
+        <a class="logo" href="#topo" aria-label="Núcleo de Beleza Barros, início">
+          <span class="logo-mark">NB</span>
+          <span class="logo-name">Núcleo de Beleza Barros</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav" id="mainNav" aria-label="Navegação principal">
+          <a href="#servicos">Serviços</a>
+          <a href="#agendar">Agendamento</a>
+          <a href="#resultados">Instagram</a>
+          <a href="#contato">Contato</a>
+          <a class="btn nav-cta" href="#agendar">Agendar horário</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="topo">
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div class="hero-content">
+            <span class="eyebrow reveal" style="--delay: 0">
+            <span class="eyebrow-line"></span>
+            JANDIRA · SÃO PAULO
+            </span>
+
+            <h1 class="reveal" style="--delay: 1">
+              Sua beleza merece um momento
+              <em>só seu.</em>
+            </h1>
+
+            <p class="hero-text reveal" style="--delay: 2">
+              Cuidado, autoestima e beleza em um só lugar.
+              Descubra nossos serviços e encontre seu próximo momento de autocuidado.
+            </p>
+
+            <div class="hero-actions reveal" style="--delay: 3">
+              <a class="btn" href="#agendar">Quero agendar <span aria-hidden="true">↗</span></a>
+              <a class="btn btn-outline" href="#servicos">Explorar serviços</a>
+            </div>
+
+            <div class="hero-note reveal" style="--delay: 4">
+              <span class="note-star" aria-hidden="true">✦</span>
+              <span>Realçando sua beleza com cuidado e excelência.</span>
+            </div>
+          </div>
+
+          <div class="hero-art reveal" style="--delay: 2" aria-label="Identidade visual do salão">
+            <div class="art-orbit orbit-one"></div>
+            <div class="art-orbit orbit-two"></div>
+            <div class="art-center">
+              <span class="art-small">SEU MOMENTO</span>
+              <span class="art-monogram">NB</span>
+              <span class="art-caption">BELEZA · CUIDADO · VOCÊ</span>
+            </div>
+            <span class="floating-star star-one" aria-hidden="true">✦</span>
+            <span class="floating-star star-two" aria-hidden="true">✧</span>
+            <span class="floating-star star-three" aria-hidden="true">✦</span>
+            <span class="art-side-text">BEAUTY STUDIO · JANDIRA</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="marquee" id="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Cabelos</span><b>✦</b>
+          <span>Unhas</span><b>✦</b>
+          <span>Estética</span><b>✦</b>
+          <span>Bronze</span><b>✦</b>
+          <span>Micropigmentação</span><b>✦</b>
+          <span>Alongamento</span><b>✦</b>
+          <span>Cabelos</span><b>✦</b>
+          <span>Unhas</span><b>✦</b>
+          <span>Estética</span><b>✦</b>
+          <span>Bronze</span><b>✦</b>
+          <span>Micropigmentação</span><b>✦</b>
+          <span>Alongamento</span><b>✦</b>
+        </div>
+      </div>
+
+      <section class="services section" id="servicos">
+        <div class="wrap">
+          <div class="section-heading">
+            <span class="eyebrow"><span class="eyebrow-line"></span> UM CUIDADO PARA CADA VOCÊ</span>
+            <h2>Descubra nossos <em>serviços.</em></h2>
+            <p class="section-text">
+              Explore as categorias e converse com nossa equipe para conhecer
+              os procedimentos disponíveis, valores e horários.
+            </p>
+          </div>
+
+          <div class="service-stories" id="serviceStories" role="group" aria-label="Categorias de serviços"></div>
+          <div class="service-panel" id="servicePanel" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="booking section" id="agendar">
+        <div class="wrap booking-grid">
+          <div class="booking-intro">
+            <span class="eyebrow"><span class="eyebrow-line"></span> SEU PRÓXIMO MOMENTO</span>
+            <h2>Vamos marcar seu <em>autocuidado?</em></h2>
+            <p class="section-text">
+              Preencha os campos e enviaremos sua solicitação pelo WhatsApp.
+              A equipe confirmará a disponibilidade e o horário com você.
+            </p>
+
+            <div class="booking-aside">
+              <span class="aside-icon" aria-hidden="true">✧</span>
+              <div>
+                <strong>Simples e direto</strong>
+                <p>Escolha os serviços, indique sua preferência e fale com a equipe.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="booking-card">
+            <div class="booking-card-head">
+              <span class="card-number">01 / AGENDAMENTO</span>
+              <span class="card-sparkle" aria-hidden="true">✦</span>
+            </div>
+
+            <div class="form-group">
+              <span class="field-title">O que você deseja fazer?</span>
+              <p class="field-hint">Selecione uma ou mais opções.</p>
+              <div class="chips" id="serviceChoices"></div>
+            </div>
+
+            <div class="form-group">
+              <label class="field-title" for="bookingDate">Data de preferência <span>(opcional)</span></label>
+              <input type="date" id="bookingDate" name="bookingDate">
+            </div>
+
+            <fieldset class="form-group period-group">
+              <legend class="field-title">Qual período prefere?</legend>
+              <div class="chips" id="periodChoices"></div>
+            </fieldset>
+
+            <div class="form-group">
+              <label class="field-title" for="customerName">Como podemos te chamar?</label>
+              <input type="text" id="customerName" name="customerName" autocomplete="name" maxlength="80" placeholder="Seu nome" required="">
+            </div>
+
+            <div class="form-group">
+              <label class="field-title" for="customerNotes">Conte um pouco mais <span>(opcional)</span></label>
+              <textarea id="customerNotes" name="customerNotes" rows="3" maxlength="500" placeholder="Alguma preferência ou dúvida?"></textarea>
+            </div>
+
+            <p class="form-error" id="formError" role="alert" aria-live="polite"></p>
+
+            <button class="btn booking-submit" id="sendBooking" type="button">
+              Solicitar pelo WhatsApp <span aria-hidden="true">↗</span>
+            </button>
+
+            <p class="privacy-note">
+              Seu pedido será aberto no WhatsApp para você revisar e enviar.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="instagram section" id="resultados">
+        <div class="wrap instagram-grid">
+          <div class="instagram-visual" aria-hidden="true">
+            <div class="insta-frame">
+              <span class="insta-icon">◎</span>
+              <span class="insta-label">NOSSO UNIVERSO</span>
+              <span class="insta-big">NB</span>
+              <span class="insta-bottom">BELEZA EM CADA DETALHE</span>
+            </div>
+            <span class="visual-decoration decoration-one">✦</span>
+            <span class="visual-decoration decoration-two">✧</span>
+          </div>
+
+          <div class="instagram-content">
+            <span class="eyebrow"><span class="eyebrow-line"></span> ACOMPANHE NOSSO TRABALHO</span>
+            <h2>Beleza que você vê.<br><em>Cuidado que você sente.</em></h2>
+            <p class="section-text">
+              Visite nosso Instagram para conferir publicações, trabalhos,
+              feedbacks e novidades compartilhadas pelo salão.
+            </p>
+            <a class="btn btn-outline" href="https://www.instagram.com/nucleodebeleza_barros/" target="_blank" rel="noopener noreferrer">
+              Visitar Instagram <span aria-hidden="true">↗</span>
+            </a>
+            <p class="instagram-handle">@nucleodebeleza_barros</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contato">
+        <div class="wrap">
+          <div class="section-heading">
+            <span class="eyebrow"><span class="eyebrow-line"></span> ESTAMOS AQUI PARA VOCÊ</span>
+            <h2>Vamos conversar?</h2>
+            <p class="section-text">
+              Tire suas dúvidas, consulte os serviços e combine seu horário diretamente com a equipe.
+            </p>
+          </div>
+
+          <div class="contact-cards">
+            <article class="contact-card">
+              <span class="contact-icon" aria-hidden="true">↗</span>
+              <h3>WhatsApp</h3>
+              <p>Agendamentos e informações.</p>
+              <a href="https://wa.me/5511995539568" target="_blank" rel="noopener noreferrer">
+                (11) 99553-9568
+              </a>
+            </article>
+
+            <article class="contact-card">
+              <span class="contact-icon" aria-hidden="true">◎</span>
+              <h3>Instagram</h3>
+              <p>Trabalhos e novidades.</p>
+              <a href="https://www.instagram.com/nucleodebeleza_barros/" target="_blank" rel="noopener noreferrer">
+                @nucleodebeleza_barros
+              </a>
+            </article>
+
+            <article class="contact-card">
+              <span class="contact-icon" aria-hidden="true">⌖</span>
+              <h3>Jandira · SP</h3>
+              <p>Consulte a localização do salão.</p>
+              <a href="https://wa.me/5511995539568?text=Ol%C3%A1!%20Poderia%20me%20passar%20a%20localiza%C3%A7%C3%A3o%20do%20sal%C3%A3o%3F" target="_blank" rel="noopener noreferrer">
+                Pedir localização
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="footer-logo" href="#topo">NB</a>
+      <p>© <span id="currentYear"></span> Núcleo de Beleza Barros · Jandira - SP</p>
+      <p class="footer-small">
+        Serviços, valores, localização e disponibilidade devem ser confirmados diretamente com o salão.
+      </p>
+    </footer>
+
+    <a class="whatsapp-float" href="https://wa.me/5511995539568?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20N%C3%BAcleo%20de%20Beleza%20Barros%20e%20gostaria%20de%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" aria-label="Falar com o salão pelo WhatsApp">
+      <span aria-hidden="true">✆</span>
+    </a>
+
+
+  </body>
+
+</html>
